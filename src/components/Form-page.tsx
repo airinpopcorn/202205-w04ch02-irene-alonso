@@ -1,3 +1,4 @@
+import { AccessData } from "./Access-data";
 import { PersonalData } from "./Personal-data";
 
 export function FormPage() {
@@ -7,6 +8,7 @@ export function FormPage() {
       <h2>Personal Data</h2>
       <PersonalData />
       <h2>Access Data</h2>
+      <AccessData />
       <h2>Confirmation</h2>
       <h2>Login</h2>
     </main>
