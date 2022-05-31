@@ -9,6 +9,13 @@ export function AccessData() {
         placeholder="password"
         required
       />
+      <input
+        type="password"
+        name="repeatPassword"
+        id="repeatPassword"
+        placeholder="Repeat password"
+        required
+      />
       <label htmlFor="account">Account type:</label>
       <select name="account" id="account">
         <option value="personal">Personal</option>
